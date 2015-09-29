@@ -59,6 +59,24 @@ img {
 	max-width: 100%;
 }
 
+.modal-content {
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+	background: #ccc;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
 /* ==== HERO ===== */
 
 #hero {
@@ -172,6 +190,10 @@ section h3 {
 	background-size: cover;
 	text-align: center;
 	color: #fff;
+}
+
+#instructor {
+	background: white url('../img/brad-elvis.jpg') 90% -10px no-repeat;
 }
 
 /* ------ CUSTOM ICON SPRITES -------- */
