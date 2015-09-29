@@ -69,12 +69,41 @@ img {
 	height: 40px;
 	width: 40px;
 	text-align: center;
-	line-height: 40px;
+	line-height: 42px;
 	margin: 0 5px 20px 0;
 	padding: 0;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
+}
+
+.badge.scoial.twitter:hover {
+	background: #55acee;
+}
+
+.badge.social.facebook:hover {
+	background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+	background: #db4b39;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
+blockquote:before {
+	display: none;
 }
 
 /* ==== HERO ===== */
@@ -195,6 +224,54 @@ section h3 {
 #instructor {
 	background: white url('../img/brad-elvis.jpg') 90% -10px no-repeat;
 }
+
+#instructor h2 {
+	margin: 0 0 20px;
+}
+
+#instructor .num {
+	display: table;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 24px;
+	height: 140px;
+	width: 140px;
+	text-align: center;
+	background: #dd5639;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-wedkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#instructor .num .num-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#instructor .num span {
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+#kudos {
+	text-align: center;
+}
+
+.testimonial {
+	margin-bottom: 60px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
 
 /* ------ CUSTOM ICON SPRITES -------- */
 
